@@ -5,7 +5,7 @@ const URL = "https://api.adviceslip.com/advice";
 
 refreshButton.style.display = "none";
 refreshButton.addEventListener("click", () => {
-  location.href = "/";
+  location.href = "";
 });
 async function getApiData() {
   try {
